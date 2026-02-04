@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* Ensures padding/borders don't affect width */
+}
+body {
+    background-color: #FF4F52;
+    background: url(/Click_It/f64dc1da4865f01f9d2240e9526ff413.jpg) no-repeat center center/cover;
+    min-height: 50vh;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.question{
+    background-color: #FF4F52;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.9rem;
+    align-items: center;
+    border:1cm;
+    border-color: black;
+    padding: 15px;
+    border-radius: 25%;
+}
+.yes{
+    background: #FF9CA5;
+    padding: 0.8rem 2.2rem;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    box-shadow: #FF4F52;
+    transition: all 0.3s ease;
+    
+
+}
+.No{
+    background: #FF9CA5;
+    padding: 0.8rem 2.2rem;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    box-shadow: #FF4F52;
+    transition: all 0.3s ease;
+
+}
+
+.yes :hover {
+    background: #ffed4e;  /* Lighter gold */
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255,215,0,0.5);
+
+}
+.yes :hover::after {
+    width: 100%;
+}
+.No :hover {
+    background: #ffed4e;  /* Lighter gold */
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255,215,0,0.5);
+}
+
+.No :hover::after {
+    width: 100%;
+}
